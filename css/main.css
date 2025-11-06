@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    font-family:Poppins;
+}
+
+/** Header Top **/
+.header-top-container{
+    background-color:#000000;
+    width:1440px;
+    height:48px;
+    position: relative;
+}
+.header-top{
+    width: 859px;
+    height: 24px;
+    top: 12px;
+    left: 445px;
+    background-color: beige;
+    gap: 231px;
+}
+/** /Header Top **/
