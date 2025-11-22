@@ -1196,7 +1196,6 @@ footer{
     width: 353px;
     height: 21px;
     margin-top: 100px;
-    margin-left: 135px;
     display: flex;
     gap: 12px;
     color: gray;
@@ -1232,7 +1231,8 @@ footer{
 
 .product-page-details{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 1300px;
 }
 
 .product-page-info-header{
@@ -1293,8 +1293,6 @@ footer{
     font-size: 14px;
     line-height: 21px;
 }
-
- 
 
 .product-page-info-footer{
     display: flex;
@@ -1453,3 +1451,8 @@ footer{
     justify-content: space-between;
 }
 /** PRODUCT MAIN **/
+
+
+/** CHECK OUT **/
+
+/** /CHECK OUT **/
