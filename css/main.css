@@ -1249,7 +1249,6 @@ footer{
 .bread-crumb{
     width: 353px;
     height: 21px;
-    margin-top: 100px;
     display: flex;
     gap: 12px;
     color: gray;
@@ -1525,7 +1524,7 @@ footer{
     margin-top: 60px;
 }
 
-label{
+.checkout-informatsiya label{
     width: 250px;
     height: 24px;
     opacity: 40%;
@@ -1573,6 +1572,7 @@ label{
     width: 425px;
     height: 140px;
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .rasm-prize{
@@ -1603,7 +1603,6 @@ label{
     gap: 16px;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 50px;
 }
 
 .narx{
@@ -1628,7 +1627,7 @@ label{
 
 .about-bank{
     display: flex;
-
+    margin-bottom: 50px;
 }
 
 .coupon{
@@ -1636,7 +1635,6 @@ label{
     height: 56px;
     display: flex;
     gap: 16px;
-    margin-top: 50px;
 }
 
 .coupon-code{
@@ -1862,5 +1860,303 @@ label{
     margin: 30px;
 }
 /** /CONTACT **/
+
+
+/** CART **/
+.cart-schedule{
+    display: flex;
+    flex-direction: column;
+    height: 356px;
+    gap: 40px;
+}
+
+.cart-headings{
+    height: 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 1px 0px 7px #a5a0a0;
+    padding: 25px 40px;
+}
+
+.cart-schedule h1{
+    width: 100px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cart-prizes{
+    height: 102px;
+    border-radius: 4px;
+    box-shadow: 1px 0px 7px #a5a0a0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-prizes img{
+    width: 54px;
+    height: 54px;
+}
+
+.monitor{
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.return-udate-buttons{
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    gap: 757px;
+    margin-top: 30px;
+}
+
+.return-udate-buttons h1{
+    width: 140px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.return-to-shop{
+    width: 218px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-cart{
+    width: 195px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-total{
+    width: 470px;
+    height: 324px;
+    border-radius: 4px;
+    border: 1.5px solid gray;
+}
+
+.cart-total h1{
+    width: 100px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-left: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.cartnarx{
+    margin-left: 24px;
+}
+
+.cart-bottom{
+    height: 324px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: start;
+}
+
+.end{
+    margin-left: 120px;
+}
+/** /CART **/
+
+
+/** 404 **/
+.not-found-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.found-main{
+    display: flex;
+    flex-direction: column;
+    width: 829px;
+    height: 179px;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.found-main h1{
+    width: 829px;
+    height: 115px;
+    font-weight: 500;
+    font-size: 110px;
+    line-height: 115px;
+    letter-spacing: 3%;
+    text-align: center;
+} 
+
+.found-main p{
+    width: 829px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+/** /404 **/
+
+
+/** ACCOUNT **/
+.account-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome h1{
+    width: 70px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.red-text{
+    color:#DB4444;
+    width: 80px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.account-main h1{
+    width: 166px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.account-info h3{
+    width: 165px;
+    height: 24px;
+    color: #000000;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.account-manage, .account-order{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    height: 88px;
+    gap: 8px;
+    margin: 20px;
+}
+
+.account-order{
+    width: 138px;
+    height:56px;
+}
+
+.contact-edit{
+    width: 870px;
+    height: 630px;
+    border-radius: 4px;
+    box-shadow: 1px 0px 10px #989797;
+}
+
+.edit{
+    width: 155px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.first-last-name, .email-address{
+    width: 710px;
+    height: 82px;
+    display: flex;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.first-last-email-add{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 82px;
+    gap: 8px;
+}
+
+.contact-edit input{
+    width: 330px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    padding-left: 10px;
+}
+
+.password-changes{
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+    height: 214px;
+    margin-top: 20px;
+    margin-left: 80px;
+    gap: 16px;
+}
+
+.password-changes input{
+    width: 710px;
+}
+
+.account-buttons{
+    width: 303px;
+    height: 56px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.account-buttons-conteiner{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+/** /ACCOUNT **/
+
+
 
 
