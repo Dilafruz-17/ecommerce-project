@@ -2158,5 +2158,55 @@ footer{
 /** /ACCOUNT **/
 
 
+/** ABOUT **/
+.staff-pictures{
+    width: 1170px;
+    height: 564px;
+    display: flex;
+    gap: 30px;
+}
+
+.staff-picture{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 564px;
+    gap: 32px;
+}
+
+.staff-img{
+    width: 370px;
+    height: 430px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+
+.staff-info{
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    height: 102px;
+    gap: 16px;
+}
+
+.staff-info h1{
+    width: 185px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
+}
+
+.staff-info p{
+    width: 167px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/** ABOUT **/
+
+
 
 
