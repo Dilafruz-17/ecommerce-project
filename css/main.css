@@ -56,6 +56,7 @@
     height: 46px;
     gap: 8px;
 }
+
 .arrow-r-l i{
     width: 46px;
     height: 46px;
@@ -68,6 +69,31 @@
     display: flex;
     width: 100%;
     justify-content: end;
+}
+
+.red-button{
+    width: 234px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-button-h1{
+    width: 134px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.red-button-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /** General **/
  
@@ -170,7 +196,7 @@ input{
     align-items: center;
 }
 
-.navbar-icons i{
+.navbar-icons a{
     width:32px;
     height: 32px;
 }
@@ -261,6 +287,34 @@ input{
  
 .timer{
     display: flex;
+    width: 302px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    width: 46px;
+    height: 50px;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.time p{
+    width: 31px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.time h1{
+    width: 46px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 4%;
 }
 
 .today-main{
@@ -268,6 +322,7 @@ input{
     height: 350px;
     display: flex;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .product-card{
@@ -327,27 +382,6 @@ input{
 .product-image-header{
     display: flex;
     justify-content: space-between;
-}
-
-.view-button{
-    background-color: #DB4444;
-    color: #F5F5F5;
-    width: 234px;
-    height:56px;
-    margin-top: 50px;
-    margin-left:500px;
-    gap: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.view-button h1{
-    width: 138px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
 }
 
 .product-img-icons{
@@ -464,23 +498,12 @@ input{
     justify-content: space-between;
 }
 
-.view-button-small{
-    width: 100px;
-    height: 40px;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 30px;
-    background-color: #DB4444;
-    color: #FAFAFA;
-    display: flex;
-    gap: 10px;
+.smaller{
+    width: 159px;
 }
 
-.view-button-small h1{
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
+.smaller h1{
+    width: 63px;
 }
 
 .this-month-main{
@@ -1053,7 +1076,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 371px;
-    height: 404px;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -1076,27 +1099,19 @@ footer{
     background-color: #FFFFFF;
 }
 
-.creat-accaunt-main button{
+.signup-btn{
     width: 371px;
-    height: 56px;
-    border-radius: 4px;
-    padding: 16px 122px;
-    display: flex;
-    gap: 10px;
-    background-color: #DB4444;
-    color:  #FAFAFA ;
-    border: 0px;
 }
 
 .google-button{
-    width:125px;
+    width:371px;
     height: 56px;
     border-radius: 4px;
-    padding: 16px 122px;
     display: flex;
     gap: 10px;
     flex-direction: column;
     border: 1px solid #000000;
+    justify-content: center;
     align-items: center;
 }
 
@@ -1172,24 +1187,20 @@ footer{
     background-color: #FFFFFF;
 }
 
+.login-btn{
+    width: 143px;
+}
+
+.login-btn h1{
+    width: 47px;
+}
+
 .login-bottom{
     display: flex;
     width: 371px;
     height: 56px;
     gap: 87px;
-    margin-top: 35px;
-}
-
-.login-bottom button{
-    width: 143px;
-    height: 56px;
-    border-radius: 4px;
-    padding: 16px 48px;
-    display: flex;
-    gap: 10px;
-    background-color: #DB4444;
-    color:  #FAFAFA ;
-    border: 0px;
+    margin-top: 50px;
 }
 
 .login-bottom p{
@@ -1978,6 +1989,25 @@ footer{
 .end{
     margin-left: 120px;
 }
+
+.cart-apply{
+    width: 211px;
+}
+
+.cart-apply h1{
+    width: 115px;
+}
+
+.total-btn{
+    width: 260px;
+    display: flex;
+    align-items: center;
+}
+
+.total-btn h1{
+    width: 180px;
+}
+ 
 /** /CART **/
 
 
