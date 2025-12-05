@@ -308,14 +308,21 @@ input{
     height: 350px;
     display: flex;
     gap: 50px;
+    overflow-x: auto
 }
 
+.today-main::-webkit-scrollbar {
+    display: none;
+}
+
+ 
 .product-card{
     display: flex;
     flex-direction: column;
     width: 270px;
     height: 350px;
     gap: 16px;
+    flex-shrink: 0; 
 }
 
 .product-image{
