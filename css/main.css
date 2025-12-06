@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: sans-serif;
 }
 
@@ -127,7 +128,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 0.5px solid gray;
+    border-bottom: 0.5px solid rgb(126, 122, 122);
 }
 
 .heading-navbar{
@@ -178,6 +179,10 @@ header{
     align-items: center;  
     border-radius: 5px;
     margin-right: 50px;
+}
+
+.input-container input{
+    border: 0px;
 }
 
 input{
@@ -1588,6 +1593,78 @@ footer{
     line-height: 21px;
 }
 
+.buttons{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.num{
+    width: 159px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+}
+
+.plus{
+    background-color: #DB4444;
+    color: #F5F5F5;
+    width: 41px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+    align-items: center;
+    font-size: 24px;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus{
+    width: 41px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-right: 1px solid gainsboro;
+}
+
+.heart{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart .bi-heart{
+     
+}
+
+.buynow{
+    width: 165px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    color:  #FAFAFA ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .delivery{
     display: flex;
     width: 332px;
@@ -2429,6 +2506,7 @@ footer{
 .about-browse-box:hover{
     background-color: #DB4444;
     color:#FFFFFF ;
+    border: 0;
 }
 
 .about-browse-box h1{
