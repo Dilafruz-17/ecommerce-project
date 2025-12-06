@@ -55,7 +55,8 @@
 
 .line{
     width: 1170px;
-    background-color: #a5a3a3;
+    height: 20px;
+    background-color: #525254;
     height:0.5px;
     margin: 50px  160px;
 }
@@ -201,6 +202,47 @@ input{
     width:32px;
     height: 32px;
 }
+
+.contact-menu{
+    display: none;
+    width: 224px;
+    height: 208px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0); 
+    backdrop-filter: blur(150px); 
+    position: absolute;
+    position: relative;
+    right: 200px;
+    top: 10px;
+    padding: 10px;
+}
+
+.contact-menu a{
+    color: #FAFAFA;
+    width: 224px;
+    height: 21px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    display: flex;
+}
+
+.bi-person:hover .contact-menu{
+    display: block;
+     
+}
+
+.bi-person{
+    width: 32px;
+    height: 32px;
+    background-color: #DB4444;
+    border-radius: 50%;
+    padding: 10px;
+    color: #FAFAFA;
+}
 /* /Navigation **/
 
 
@@ -232,6 +274,33 @@ input{
 
 .list-box{
     padding-top: 18px;
+}
+
+.menu{
+    display: none;
+    width: 190px;
+    height: 208px;
+    border-radius: 4px; 
+    background-color: rgba(0, 0, 0, 0); 
+    backdrop-filter: blur(150px); 
+    position: absolute;
+    margin-top: -20px; 
+    padding: 10px;
+}
+
+.menu a{
+    color: #FAFAFA;
+    width: 172px;
+    height: 32px;
+    font-family: Poppins;
+    text-align: center;
+    margin-bottom: 12px;
+    display: block;
+    text-decoration: none;
+}
+
+.bi-chevron-right:hover .menu{
+    display: block;
 }
 
 .main-section-list li{
@@ -305,10 +374,11 @@ input{
 
 .today-main{
     width: 1308px;
-    height: 350px;
+    height: 380px;
     display: flex;
     gap: 50px;
-    overflow-x: auto
+    overflow-x: auto; 
+    scroll-behavior: smooth;
 }
 
 .today-main::-webkit-scrollbar {
@@ -1915,6 +1985,11 @@ footer{
     border-radius: 4px;
 }
 
+.contact-inp input{
+    width: 235px;
+    padding-right: 100px;
+}
+
 .contact-sent-massage input{
     width: 101px;
     height: 24px;
@@ -1931,6 +2006,10 @@ footer{
     border-radius: 4px;
     background-color: #F5F5F5;
      margin: 30px;
+}
+
+.your-massage textarea{
+    background-color: #F5F5F5;
 }
 
 .left-sent-massage{
