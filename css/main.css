@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.bi-heart-fill{
+    color: #DB4444;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -196,7 +200,7 @@ input{
 }
 
 .navbar-icons{
-    width: 80px;
+    width: 160px;
     display: flex;
     gap: 16px;
     height: 32px;
@@ -235,12 +239,13 @@ input{
     display: flex;
 }
 
-.bi-person:hover .contact-menu{
+.bi-person:hover .contact-menu {
     display: block;
-     
 }
 
-.bi-person{
+
+
+.bi-person {
     width: 32px;
     height: 32px;
     background-color: #DB4444;

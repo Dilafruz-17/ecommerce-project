@@ -4,8 +4,11 @@ let num = document.getElementById("number")
 let count = 0
 
 minus.addEventListener("click", function(){
-    count--
+    
     num.textContent = count
+    if(count > 1){
+        count--
+    }
 })
 
 plus.addEventListener("click", function(){
