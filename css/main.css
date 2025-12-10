@@ -7,6 +7,34 @@
 .bi-heart-fill{
     color: #DB4444;
 }
+ 
+.bread-crumb{
+    width: 353px;
+    height: 21px;
+    display: flex;
+    gap: 12px;
+    color: gray;
+}
+
+.here{
+    width: 177px;
+    color: #000000;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.bread-crumb a{
+    width: 59px;
+    height: 21px;
+    opacity: 50%;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+}
 
 * {
     margin: 0;
@@ -84,6 +112,7 @@
     display: flex;
     width: 100%;
     justify-content: end;
+    font-size: 20px;
 }
 /** General **/
  
@@ -729,6 +758,10 @@ input{
 
 
 /** /Our Product **/
+.our-products-card{
+    height: 322px;
+}
+
 .our-products-header{
     display: flex;
     justify-content: space-between;
@@ -736,16 +769,17 @@ input{
 }
 
 .green-new{
-    background-color: #00FF66;
-    width: 51px;
+    width: 55px;
     height: 26px;
-    color: #FAFAFA;
-    margin-top: 12px;
-    margin-left: 12px;
+    margin: 12px;
     border-radius: 4px;
+    padding: 4px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    background-color: #00FF66;
+    color: #FAFAFA;
 }
 
 .our-products-main{
@@ -1370,6 +1404,12 @@ footer{
 
 
 /** PRODUCT MAIN **/
+.product-page-details{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+} 
+
 .product-page-picture{
     display: flex;
 }
@@ -1411,46 +1451,12 @@ footer{
     height: 315px;
 }
 
-.bread-crumb{
-    width: 353px;
-    height: 21px;
-    display: flex;
-    gap: 12px;
-    color: gray;
-}
-
-.here{
-    width: 177px;
-    color: #000000;
-    height: 21px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-}
-
-.bread-crumb a{
-    width: 59px;
-    height: 21px;
-    opacity: 50%;
-    color: #000000;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-decoration: none;
-}
-
 .related{
     margin-bottom: 150px;
 }
 
 .red-heading{
     margin-bottom: 70px;
-}
-
-.product-page-details{
-    display: flex;
-    justify-content: space-between;
-    width: 1300px;
 }
 
 .product-page-info-header{
