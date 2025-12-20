@@ -1,4 +1,11 @@
 /** General **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .container{
     width:100%;
     margin: 0 auto;
@@ -34,13 +41,6 @@
     font-size: 14px;
     line-height: 21px;
     text-decoration: none;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: sans-serif;
 }
 
 .red-heading{
@@ -118,13 +118,6 @@
  
 
 /** Header Top **/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
 header{
     background-color: black;
     color: white;
@@ -991,36 +984,38 @@ input{
 
 /** Footer Bottom **/
 footer{
-    width:100%;
-    height: 400px;
     background-color: #000000;
+    color: white;
+    width:100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 .footer-container{
-    width: 1170px;
-    color: #FAFAFA;
-    justify-content: space-between;
+    width: 100%;
+    max-width: 1170px;
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
+    margin: 50px auto;
 }
 
 .footer-exclusive{
     width: 217px;
-    height: 188px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.footer-exclusive-top{
-    width: 206px;
-    height: 124px;
-    display: flex;
-    gap: 24px;
-    flex-direction: column;
+.footer-container h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-exclusive h1{
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .footer-input{
@@ -1053,49 +1048,12 @@ footer{
     border: 2px solid #000000
 }
 
-.footer-exclusive-top h1{
-    width: 118px;
-    height: 24px;
-    font-weight: 700; 
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: 3%;
-}
-
-.footer-exclusive-top h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.footer-exclusive-top p{
-    width: 206px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
 .footer-support{
     display: flex;
     flex-direction: column;
     width: 175px;
     height: 180px;
     gap: 24px;
-}
-
-.footer-support h1{
-    width: 81px;
-    height: 28px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.footer-support p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
 }
 
 .footer-accaunt{
@@ -1106,34 +1064,12 @@ footer{
     gap: 24px;
 }
 
-.footer-accaunt h1{
-    width: 85px;
-    height: 28px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.footer-accaunt p{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-}
-
 .footer-quick-link{
     display: flex;
     flex-direction: column;
     width: 109px;
     height: 196px;
     gap: 24px;
-}
-
-.footer-quick-link h1{
-    width: 500px;
-    height: 28px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
 }
 
 .footer-download{
@@ -1144,25 +1080,8 @@ footer{
     gap: 24px;
 }
 
-.footer-download h1{
-    width: 148px;
-    height: 28px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-.footer-download p{
-    width: 194px;
-    height: 18px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-}
-
 .footer-download-imgs{
     width: 198px;
-    height: 84px;
     display: flex;
     gap: 8px;
 }
@@ -1176,47 +1095,40 @@ footer{
     display: flex;
     flex-direction: column;
     width: 110px;
-    height: 84px;
-    gap: 4px;
+    justify-content: space-between;
 }
 
-.google-play{
+.google-play, .appstore{
     width: 104px;
     height: 30px;
     border-radius: 4px solid #FAFAFA;
 }
 
-.appstore{
-    width: 104px;
-    height: 34px;
-    border-radius: 4px solid #FAFAFA;
-}
-
 .social-icons{
     width: 168px;
-    height: 24px;
     display: flex;
     gap: 24px;
 }
 
 .footer-bottom {
     width: 100%;
-    height: 40px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+    padding: 25px;
+    text-align: center;
     background-color: #000000;
     border-top: 2px solid rgb(55, 54, 54);
+    color: #fafafa9a;
 }
 
-.footer-bottom p{
-    width: 337px;
-    height: 24px;
-    display: flex;
-    gap: 12px;
-    opacity: 30%;
-    color: #FAFAFA;
+@media (max-width: 576px){
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .footer-support, .footer-download, .footer-quick-link, .footer-accaunt, .footer-support{
+        width: 217px;
+    }
 }
 /** /Footer Bottom **/
 
