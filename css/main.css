@@ -135,7 +135,6 @@ header{
     padding: 12px 15px;
 }
 
-/* faqat shu p */
 .header-top-line p{
     white-space: nowrap;
 }
@@ -151,7 +150,6 @@ a{
     border: none;
 }
 
-/* 📱 MOBILE */
 @media (max-width: 576px){
     .header-top-line p{
         max-width: 75%;
@@ -179,8 +177,9 @@ a{
 .heading-navbar{
     width: 100%;
     max-width: 1170px;
+    gap: 80px;
     display: flex;
-    justify-content:space-between; 
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
@@ -203,20 +202,23 @@ a{
 .navigation-menu a{
     color: #000000;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .navigation-menu a:hover{
     text-decoration: underline;
 }
 
-.input-container{
+.navigation-menu a.active{
+    text-decoration: underline;
+}
+
+.input-container-heading{
     background-color:#F5F5F5 ;
     display: flex;
-    width: 210px;
-    justify-content: space-between; 
     align-items: center;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
 input{
@@ -277,7 +279,7 @@ input{
 }
 
 @media (max-width: 576px){
-    .input-container{
+    .input-container-heading{
         display: none;
     }
 
