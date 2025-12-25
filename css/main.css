@@ -8,7 +8,14 @@
 
 .container{
     width:100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section-centr{
+    max-width: 1170px;
+    width: 100%;
+    margin: 50px auto;
 }
 
 .bi-heart-fill{
@@ -50,6 +57,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 576px){
+    .red-heading{
+        margin: 10px;
+    }
+}
+
 .red-icon{
     width: 20px;
     height: 40px;
@@ -59,17 +72,9 @@
 
 .sections-header-first{
     width: 164px;
-    height: 20px;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
     color: #DB4444;
     margin-top:10px ;
-}
-
-.section-centr{
-    width: 1170px;
-    margin: 100px auto;
 }
 
 .section-center{
@@ -579,17 +584,13 @@ input{
 
 /** Categories **/
 .categories-header{
-    width: 1170px;
     height: 108px;
     display: flex;
-    gap: 691px;
     margin-top: 30px;
     justify-content: space-between;
 }
 
 .categories-main{
-    width: 1170px;
-    height: 145px;
     display: flex;
     justify-content: space-between
 }
@@ -601,9 +602,9 @@ input{
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .browse-box:hover{
@@ -613,18 +614,19 @@ input{
 }
 
 .browse-box i{
-    margin-top: 20px;
     font-size: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.browse-box p{
-    width:170px;
-    height: 24px;
-    margin: 10px ;
-    text-align: center;
+@media (max-width: 576px){
+    .categories-main{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        margin: 10px;
+    }
+    .categories-header{
+        margin: 15px;
+    }
 }
 /** /Categories **/
 
@@ -637,8 +639,6 @@ input{
 }
 
 .view-button-small{
-    width: 100px;
-    height: 40px;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
@@ -661,6 +661,18 @@ input{
     display: flex;
     gap: 30px;
     margin-top: 55px;
+}
+
+@media (max-width: 576px){
+    .categories-main{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        margin: 10px;
+    }
+    .this-month-header{
+        margin: 10px;
+    }
 }
 /** /This month **/
 
@@ -1418,10 +1430,6 @@ footer{
 
 .related{
     margin-bottom: 150px;
-}
-
-.red-heading{
-    margin-bottom: 70px;
 }
 
 .product-page-info-header{
